@@ -1,9 +1,6 @@
-﻿int num1 = int.Parse(Console.ReadLine());
-int num2 = int.Parse(Console.ReadLine());
-
-static double FactorialCalculator(int number)
+﻿static int FactorialCalculator(int number)
 {
-    double output = 1.0;
+    int output = 1;
 
     for (int factorial = 1; factorial <= number; factorial++)
     {
@@ -13,9 +10,12 @@ static double FactorialCalculator(int number)
     return output;
 }
 
-double factorialOne = FactorialCalculator(num1);
-double factorialTwo = FactorialCalculator(num2);
+int num1 = int.Parse(Console.ReadLine());
+int num2 = int.Parse(Console.ReadLine());
 
-double sum = factorialOne / factorialTwo;
+int factorialOne = FactorialCalculator(num1);
+int factorialTwo = FactorialCalculator(num2);
 
-Console.WriteLine(sum);
+int result = factorialOne / factorialTwo;
+
+Console.WriteLine(result);
