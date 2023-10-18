@@ -249,17 +249,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Factorial Division", "0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14. Arrays", "14. Arrays", "{E80CB61D-D450-4239-AD1C-08D07D036292}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Day of Week", "01. Day of Week\01. Day of Week.csproj", "{6BC40170-5663-4560-B3A5-DF489ADE8AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Day of Week", "01. Day of Week\01. Day of Week.csproj", "{6BC40170-5663-4560-B3A5-DF489ADE8AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sum an Array", "02. Sum an Array\02. Sum an Array.csproj", "{9C0DC943-8265-4A76-8C16-F310080F2D07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Sum an Array", "02. Sum an Array\02. Sum an Array.csproj", "{9C0DC943-8265-4A76-8C16-F310080F2D07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Reverse an Array", "03. Reverse an Array\03. Reverse an Array.csproj", "{548814A7-38C7-4290-A0A8-807D90FCB2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Reverse an Array", "03. Reverse an Array\03. Reverse an Array.csproj", "{548814A7-38C7-4290-A0A8-807D90FCB2E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Even and Odd Subtraction", "04. Even and Odd Subtraction\04. Even and Odd Subtraction.csproj", "{AB729A38-9F3B-476A-94EC-8B65793DB4CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Even and Odd Subtraction", "04. Even and Odd Subtraction\04. Even and Odd Subtraction.csproj", "{AB729A38-9F3B-476A-94EC-8B65793DB4CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Equal Arrays", "05. Equal Arrays\05. Equal Arrays.csproj", "{9B98D3E0-39A0-4380-A6DD-B6427B4C63F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Equal Arrays", "05. Equal Arrays\05. Equal Arrays.csproj", "{9B98D3E0-39A0-4380-A6DD-B6427B4C63F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Common Elements", "06. Common Elements\06. Common Elements.csproj", "{92864DC7-6D5F-4B8A-B47C-C815CC63C506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Common Elements", "06. Common Elements\06. Common Elements.csproj", "{92864DC7-6D5F-4B8A-B47C-C815CC63C506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15. Lists", "15. Lists", "{983F4F33-9C07-491D-9EF3-C812BF80B98A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Change List", "01. Change List\01. Change List.csproj", "{9A570858-D681-42CB-B0FB-31846804BA87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. List of Products", "02. List of Products\02. List of Products.csproj", "{543187E4-60CB-423D-ACA2-2A341F14B68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Remove Negatives and Reverse", "03. Remove Negatives and Reverse\03. Remove Negatives and Reverse.csproj", "{A2A26B80-BB51-43A7-A219-19BBFAF5C32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. List Manipulation Basics", "04. List Manipulation Basics\04. List Manipulation Basics.csproj", "{842A99FC-58A8-4835-9562-4C96E0C14AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. List Manipulation Advanced", "05. List Manipulation Advanced\05. List Manipulation Advanced.csproj", "{D67BC232-7B39-422C-8808-5535B7608769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -727,6 +739,26 @@ Global
 		{92864DC7-6D5F-4B8A-B47C-C815CC63C506}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92864DC7-6D5F-4B8A-B47C-C815CC63C506}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92864DC7-6D5F-4B8A-B47C-C815CC63C506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A570858-D681-42CB-B0FB-31846804BA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A570858-D681-42CB-B0FB-31846804BA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A570858-D681-42CB-B0FB-31846804BA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A570858-D681-42CB-B0FB-31846804BA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543187E4-60CB-423D-ACA2-2A341F14B68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543187E4-60CB-423D-ACA2-2A341F14B68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543187E4-60CB-423D-ACA2-2A341F14B68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543187E4-60CB-423D-ACA2-2A341F14B68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A26B80-BB51-43A7-A219-19BBFAF5C32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A26B80-BB51-43A7-A219-19BBFAF5C32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A26B80-BB51-43A7-A219-19BBFAF5C32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A26B80-BB51-43A7-A219-19BBFAF5C32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842A99FC-58A8-4835-9562-4C96E0C14AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842A99FC-58A8-4835-9562-4C96E0C14AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842A99FC-58A8-4835-9562-4C96E0C14AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842A99FC-58A8-4835-9562-4C96E0C14AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67BC232-7B39-422C-8808-5535B7608769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67BC232-7B39-422C-8808-5535B7608769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67BC232-7B39-422C-8808-5535B7608769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67BC232-7B39-422C-8808-5535B7608769}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -847,6 +879,11 @@ Global
 		{AB729A38-9F3B-476A-94EC-8B65793DB4CE} = {E80CB61D-D450-4239-AD1C-08D07D036292}
 		{9B98D3E0-39A0-4380-A6DD-B6427B4C63F1} = {E80CB61D-D450-4239-AD1C-08D07D036292}
 		{92864DC7-6D5F-4B8A-B47C-C815CC63C506} = {E80CB61D-D450-4239-AD1C-08D07D036292}
+		{9A570858-D681-42CB-B0FB-31846804BA87} = {983F4F33-9C07-491D-9EF3-C812BF80B98A}
+		{543187E4-60CB-423D-ACA2-2A341F14B68D} = {983F4F33-9C07-491D-9EF3-C812BF80B98A}
+		{A2A26B80-BB51-43A7-A219-19BBFAF5C32A} = {983F4F33-9C07-491D-9EF3-C812BF80B98A}
+		{842A99FC-58A8-4835-9562-4C96E0C14AEF} = {983F4F33-9C07-491D-9EF3-C812BF80B98A}
+		{D67BC232-7B39-422C-8808-5535B7608769} = {983F4F33-9C07-491D-9EF3-C812BF80B98A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83802914-E34A-4C82-8A20-BE34E0EFA46D}
